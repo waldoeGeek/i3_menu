@@ -1,5 +1,9 @@
 ###Again not sure where I got this from...
 ###
+
+# System Menu #
+set $sysmenu "[p]oweroff  re[b]oot  [r]eload [s]uspend  [l]ogout  "
+bindsym $mod+Delete      mode $sysmenu
 mode $sysmenu {
     bindsym r         restart
     bindsym l         exit
