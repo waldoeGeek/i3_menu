@@ -1,0 +1,11 @@
+###Again not sure where I got this from...
+###
+mode $sysmenu {
+    bindsym r         restart
+    bindsym l         exit
+    bindsym p         exec shutdown -P now
+    bindsym b         exec shutdown -r now
+    bindsym s         exec systemctl suspend
+    bindsym Return    mode "default"
+    bindsym Escape    mode "default"
+}
